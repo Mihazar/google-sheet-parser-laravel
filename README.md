@@ -11,8 +11,12 @@ GOOGLE_SHEET_DEVELOPER_KEY=
 php artisan migrate
 ```
 
-## Run parsing
+### Run installing libraries
+```
+composer install
+```
 
+## Run parsing
 ```
 php artisan parse:google-sheet {googlesheet_id} {sheet_name} 
 ```

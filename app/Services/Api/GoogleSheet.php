@@ -5,7 +5,6 @@ namespace App\Services\Api;
 use App\Interfaces\Api\Api;
 use Google\Client as GoogleClient;
 use Google\Service\Sheets as GoogleSheets;
-use function PHPUnit\Framework\throwException;
 
 class GoogleSheet implements Api {
 
