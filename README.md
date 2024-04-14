@@ -1,4 +1,4 @@
-## Project setup
+## Run parsing
 
 ```
 php artisan migrate
